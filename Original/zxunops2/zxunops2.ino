@@ -245,8 +245,8 @@ void _delay_us_4usteps(uint8_t us)
 
 //En us, reloj y semireloj, para los flancos
 //Uso normal: CK1 = 20, CK2 = 40 // Para codigo sin optimizar (x12) CK1 = 240, CK2 = 480.  //JOyPs2 CK1=15 CK2=30 //Nuevo JoyPs2 CK1=16 CK2=32 //Mio CK1=4 CK2=8
-#define CK1 4
-#define CK2 8
+#define CK1 16
+#define CK2 32
 uint8_t CKm = 1;  //Multiplicador de CK1 y CK2
 
 				  //envio de datos ps/2 simulando reloj con delays.
